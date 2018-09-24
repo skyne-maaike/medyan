@@ -1,0 +1,903 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Arabic
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.rtl {
+ text-align:right;
+}
+
+/* Countdown
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.circle-c {
+ text-align: center;
+  width: 50px;
+  height:50px;
+  border-radius: 50px;
+  padding:7px;
+margin: 10px;
+  vertical-align:middle;
+  text-align:center;
+float: left;
+border: 7.5px solid #fff;
+}
+@media screen and (max-width: 1600px) {
+  .circle-c {
+margin:4px!important;
+width:45px;
+height:45px;
+}
+}
+@media (max-width:1260px) and (min-width:700px) {
+  .circle-c {
+float: none;
+margin-left:20% !important;
+}}
+
+#month, #week, #day, #month-k, #week-k, #day-k, #month-j, #week-j, #day-j {
+  font-size: 23px;
+  margin:-2px !important;
+  margin-bottom:-14px !important;
+  padding: 0 !important;
+}
+#box-c {
+ max-width:380px;
+ color:#47337B;
+ padding:30px;
+ -webkit-box-shadow: 0px 0px 50px 0px rgba(47,27,86,1);
+-moz-box-shadow: 0px 0px 50px 0px rgba(47,27,86,1);
+box-shadow: 0px 0px 50px 0px rgba(47,27,86,1);
+}
+
+/* Style elements
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about-b {
+   background-image: url('images/Background2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-b {
+   background-image: url('images/Background3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partners-b {
+   background-image: url('images/Background4.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.locations-b {
+   background-image: url('images/Background5.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-b {
+   background-image: url('images/Background6.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yellowstroke {
+  width: 100px;
+  border-top: 7.5px solid #FABF69;
+  margin-bottom:15px;
+}
+
+.bluestroke {
+  width: 100px;
+  border-top: 7.5px solid #009FCF;
+    margin-bottom:15px;
+}
+
+.orangestroke {
+  width: 100px;
+  border-top: 7.5px solid #F0845A;
+    margin-bottom:15px;
+    }
+
+.circle {
+  width: 130px;
+  height:130px;
+  border-radius: 130px;
+  padding:10px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+   
+}
+.yellow {
+    border: 7.5px solid #FABF69;
+}
+.blue {
+   border: 7.5px solid #009FCF;
+}
+.orange {
+   border: 7.5px solid #F0845A;
+}
+.purple {
+   border: 7.5px solid #47337B;
+}
+.purple-b {
+    background:#47337B;
+    color:white !important;
+}
+.purple-b-dark {
+    background:#2F1B56;
+}
+.blue-b {
+    background:#009FCF;
+}
+.yellow-b {
+ background: #FABF69;
+}
+.orange-b {
+ background: #F0845A;
+}
+.shade-top {
+  height: 100px;
+    -moz-box-shadow:    inset  0  60px 80px -60px #2F1B56;
+    -webkit-box-shadow: inset  0  60px 80px -60px #2F1B56;
+     box-shadow:        inset  0  60px 80px -60px #2F1B56;                     
+}
+.shade-bottom {
+  height:100px;
+    -moz-box-shadow:    inset  0  -70px 80px -60px #2F1B56;
+    -webkit-box-shadow: inset  0  -70px 80px -60px #2F1B56;
+     box-shadow:        inset  0  -70px 80px -60px #2F1B56;                     
+}
+.shade-top-small {
+  height: 20px;
+    -moz-box-shadow:    inset  0  60px 80px -60px #2F1B56;
+    -webkit-box-shadow: inset  0  60px 80px -60px #2F1B56;
+     box-shadow:        inset  0  60px 80px -60px #2F1B56;                     
+}
+.shade-bottom-small {
+  height:20px;
+    -moz-box-shadow:    inset  0  -70px 80px -60px #2F1B56;
+    -webkit-box-shadow: inset  0  -70px 80px -60px #2F1B56;
+     box-shadow:        inset  0  -70px 80px -60px #2F1B56;                     
+}
+.shade-top-light {
+  height: 100px;
+    -moz-box-shadow:    inset  0  60px 80px -60px #a0a0a0; 
+    -webkit-box-shadow: inset  0  60px 80px -60px #a0a0a0; 
+     box-shadow:        inset  0  60px 80px -60px #a0a0a0;               
+}
+.shade-bottom-light {
+  height:100px;
+    -moz-box-shadow:    inset  0  -70px 80px -60px #a0a0a0; 
+    -webkit-box-shadow: inset  0  -70px 80px -60px #a0a0a0; 
+     box-shadow:        inset  0  -70px 80px -60px #a0a0a0;    
+}
+
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+   background:#47337B;
+   background-image: url('images/Header.svg');
+   min-height: 900px;
+   max-height:1200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+        
+.title {
+ color:white;
+ font-size:18.0rem;
+ line-height: 0.8;
+}
+@media screen and (max-width: 1260px) {
+  .title {
+ font-size:14.0rem;
+}}
+
+
+#hlogo {
+  max-width:350px;
+  margin: 0;
+ right:10%;
+  position: absolute;
+  top:70%;
+}
+#arrow {
+  max-width:40px !important;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+ right: 0%;
+  border-radius: 130px;
+  padding:12px;
+   border: 5px solid #009FCF;
+}
+#hlogo-ar {
+  max-width:350px;
+  margin: 0;
+ left:10%;
+  position: absolute;
+  top:70%;
+}
+#arrow-ar {
+  max-width:40px !important;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+ left: 0%;
+  border-radius: 130px;
+  padding:12px;
+   border: 5px solid #009FCF;
+}
+@media screen and (max-width: 700px) {
+  .title {
+ font-size:11.0rem;
+}
+#hlogo, #hlogo-ar {
+max-width:300px;
+margin-top:90px;
+}
+#arrow, #arrow-ar {
+margin-top:20px;
+}
+}
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.logo {
+  padding-top:10px;
+  min-width: 60px !important;
+}
+
+
+@media screen and (max-width: 800px) {
+  #navitem {display: none;}
+}
+
+.navbar {
+  position: fixed;
+  z-index:999;
+  width:100%;
+  height: 60px;
+   -webkit-transition:  0.2s ease;
+   transition: 0.2s ease;
+   background:#47337B;
+     box-shadow: inset 0 0 0 1000px rgba(47,27,86, 0.4);
+}
+
+#navitem {
+text-decoration: none;
+font-weight: normal;
+font-size: 15px;
+padding: 20px;
+line-height:60px;
+}
+#navitem: hover a {
+color: #009FCF !important;
+}
+.active {
+    color: #000 !important;
+}
+#navitem-lang {
+text-decoration: none;
+font-weight: normal;
+font-size: 15px;
+padding: 5px;
+line-height:50px;
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.center {
+  text-align: center;
+  align-items:center;
+}
+.padding150 {
+    padding-top:150px !important;
+  padding-bottom:150px !important;
+}
+.padding100 {
+    padding-top:100px !important;
+  padding-bottom:100px !important;
+}
+.padding10 {
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+}
+.padding20 {
+  padding-top:20px !important;
+  padding-bottom:20px !important;
+}
+.padding50 {
+  padding-top:50px !important;
+  padding-bottom:50px !important;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+padding: 0px;
+  box-sizing: border-box;
+  }
+.white {
+    background:white;
+  }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%;
+  height:100%;}
+body {
+  font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  font-weight: normal;
+  font-family: "Bahij Janna", Helvetica, Arial, sans-serif;
+  color: #47337B;
+  height:100%;}
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: 0.2rem;     }
+h2 { font-size: 2.3rem; line-height: 1.25; letter-spacing: 0.1rem; font-weight:bold;}
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: 0rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: 0rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0.1rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 700px) {
+  h1 { font-size: 6.0rem;}
+  h2 { font-size: 2.8rem; font-weight:bold; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+  
+  .ara {
+     font-family: 'Ara Hamah AlThawra', Helvetica, Arial, sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'Bahij Janna';
+    src: url('fonts/BahijJanna.eot');
+    src: url('fonts/BahijJanna.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BahijJanna.woff2') format('woff2'),
+        url('fonts/BahijJanna.woff') format('woff'),
+        url('fonts/BahijJanna.ttf') format('truetype'),
+        url('fonts/BahijJanna.svg#BahijJanna') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bahij Janna';
+    src: url('fonts/BahijJanna-Bold.eot');
+    src: url('fonts/BahijJanna-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BahijJanna-Bold.woff2') format('woff2'),
+        url('fonts/BahijJanna-Bold.woff') format('woff'),
+        url('fonts/BahijJanna-Bold.ttf') format('truetype'),
+        url('fonts/BahijJanna-Bold.svg#BahijJanna-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah Alislam';
+    src: url('fonts/AraHamahAlislam-Regular.eot');
+    src: url('fonts/AraHamahAlislam-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahAlislam-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahAlislam-Regular.woff') format('woff'),
+        url('fonts/AraHamahAlislam-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahAlislam-Regular.svg#AraHamahAlislam-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah Kilania';
+    src: url('fonts/AraHamahKilania-Regular.eot');
+    src: url('fonts/AraHamahKilania-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahKilania-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahKilania-Regular.woff') format('woff'),
+        url('fonts/AraHamahKilania-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahKilania-Regular.svg#AraHamahKilania-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah 1964 R';
+    src: url('fonts/AraHamah1964R-Regular.eot');
+    src: url('fonts/AraHamah1964R-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamah1964R-Regular.woff2') format('woff2'),
+        url('fonts/AraHamah1964R-Regular.woff') format('woff'),
+        url('fonts/AraHamah1964R-Regular.ttf') format('truetype'),
+        url('fonts/AraHamah1964R-Regular.svg#AraHamah1964R-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah 1964 B';
+    src: url('fonts/AraHamah1964B-Bold.eot');
+    src: url('fonts/AraHamah1964B-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamah1964B-Bold.woff2') format('woff2'),
+        url('fonts/AraHamah1964B-Bold.woff') format('woff'),
+        url('fonts/AraHamah1964B-Bold.ttf') format('truetype'),
+        url('fonts/AraHamah1964B-Bold.svg#AraHamah1964B-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah 1982';
+    src: url('fonts/AraHamah1982-Regular.eot');
+    src: url('fonts/AraHamah1982-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamah1982-Regular.woff2') format('woff2'),
+        url('fonts/AraHamah1982-Regular.woff') format('woff'),
+        url('fonts/AraHamah1982-Regular.ttf') format('truetype'),
+        url('fonts/AraHamah1982-Regular.svg#AraHamah1982-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah AlHorra';
+    src: url('fonts/AraHamahAlHorra-Regular.eot');
+    src: url('fonts/AraHamahAlHorra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahAlHorra-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahAlHorra-Regular.woff') format('woff'),
+        url('fonts/AraHamahAlHorra-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahAlHorra-Regular.svg#AraHamahAlHorra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah AlFidaa';
+    src: url('fonts/AraHamahAlFidaa-Regular.eot');
+    src: url('fonts/AraHamahAlFidaa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahAlFidaa-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahAlFidaa-Regular.woff') format('woff'),
+        url('fonts/AraHamahAlFidaa-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahAlFidaa-Regular.svg#AraHamahAlFidaa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah Sahet AlAssi';
+    src: url('fonts/AraHamahSahetAlAssi-Regular.eot');
+    src: url('fonts/AraHamahSahetAlAssi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahSahetAlAssi-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahSahetAlAssi-Regular.woff') format('woff'),
+        url('fonts/AraHamahSahetAlAssi-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahSahetAlAssi-Regular.svg#AraHamahSahetAlAssi-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah Homs';
+    src: url('fonts/AraHamahHoms-Regular.eot');
+    src: url('fonts/AraHamahHoms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahHoms-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahHoms-Regular.woff') format('woff'),
+        url('fonts/AraHamahHoms-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahHoms-Regular.svg#AraHamahHoms-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah AlThawra';
+    src: url('fonts/AraHamahAlThawra-Regular.eot');
+    src: url('fonts/AraHamahAlThawra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahAlThawra-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahAlThawra-Regular.woff') format('woff'),
+        url('fonts/AraHamahAlThawra-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahAlThawra-Regular.svg#AraHamahAlThawra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ara Hamah Zanki';
+    src: url('fonts/AraHamahZanki-Regular.eot');
+    src: url('fonts/AraHamahZanki-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AraHamahZanki-Regular.woff2') format('woff2'),
+        url('fonts/AraHamahZanki-Regular.woff') format('woff'),
+        url('fonts/AraHamahZanki-Regular.ttf') format('truetype'),
+        url('fonts/AraHamahZanki-Regular.svg#AraHamahZanki-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #fff;
+}
+a:hover {
+  color: #009FCF; }
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 30px;
+  padding: 0 20px;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+    font-family: 'Ara Hamah AlThawra', Helvetica, Arial, sans-serif;
+    margin-top:5px;}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #009FCF;
+  border-color: #009FCF; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #018DC1;
+  border-color: #018DC1; }
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+
+  box-shadow: none;
+  box-sizing: border-box;
+    color: #47337B;}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+li {
+  margin-bottom: 1rem; }
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
