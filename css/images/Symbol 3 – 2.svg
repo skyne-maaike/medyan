@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 850">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fabf69;
+        stroke-miterlimit: 10;
+        stroke-width: 200px;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_3_2" data-name="Symbol 3 – 2" transform="translate(-1096.229 -290.707)">
+    <path id="Path_281" data-name="Path 281" class="cls-1" d="M750,0C750,414.586,413.734,750,0,750" transform="translate(1096.229 1140.707) rotate(-90)"/>
+  </g>
+</svg>
