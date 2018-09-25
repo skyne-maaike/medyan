@@ -221,7 +221,7 @@ box-shadow: 0px 0px 50px 0px rgba(47,27,86,1);
 }
 @media screen and (max-width: 1260px) {
   .title {
- font-size:14.0rem;
+ font-size:10.0rem !important;
 }}
 
 
@@ -357,7 +357,8 @@ padding: 0px;
 .columns {
   width: 100%;
   float: left;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding:10px;}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
