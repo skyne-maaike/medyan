@@ -49,8 +49,9 @@
 <a href="#services" id="navitem">Our services</a>
 <a href="#partners" id="navitem">Our partners</a>
 <a href="#locations" id="navitem">Our locations</a>
-<a href="index.html" id="navitem-lang"><span style="color:#009FCF;">Eng</span></a> <span style="color:white;">/</span>
-<a href="ar.html" id="navitem-lang"> عل</a>
+<a href="index.html" id="navitem-lang"><span style="color:#009FCF;">English</span></a> <span style="color:white;">/</span>
+<a href="ar.html" id="navitem-lang">عربي
+</a>
 </div>          
   </div></div>
 </div></div>
@@ -90,7 +91,6 @@
      <h1 class="ara">About us</h1>
      <p>Medyan is a Quality of life initiative lead by General Commission for Audiovisual Media (GCAM). The purpose of Medyan is to be a conducive Saudi digital and media ecosystem where talent and business can experiment and grow to become the first choice for media and digital professionals.
      </p>
-    <a class="button button-primary" href="#">Download our brochure</a>
      
     </div>
   </div>
@@ -135,15 +135,12 @@ Medyan will ensure the media companies a dedicated space that accommodates their
 
 <!-- Partners -->
  <div class="partners-b" id="partners">
-<div class="container padding100" >
+<div class="container" style="padding-top:0px;padding-bottom:100px;">
   <div class="row">
-   <div class="one-half column">
-   <img class="u-max-full-width" alt="partners" src="css/images/Medyan Open Artowrks-17.jpg">
- </div>
-    <div class="one-half column">
+    <div class="twelve column center">
      <h1 class="ara">Our partners</h1>
-     <img alt="gcam" width="40%" style="margin:20px;" src="http://www.gcam.gov.sa/Style%20Library/branding/images/logo.png"/>
-    <img alt="qolp" width="40%" style="margin:20px;" src="https://argaamplus.s3.amazonaws.com/ffcc12ee-03f1-4ecc-8d11-8356d15d9eea.png"/>                      
+     <img alt="gcam" width="30%" style="margin:20px;" src="http://www.gcam.gov.sa/Style%20Library/branding/images/logo.png"/>
+    <img alt="qolp" width="30%" style="margin:20px;" src="https://argaamplus.s3.amazonaws.com/ffcc12ee-03f1-4ecc-8d11-8356d15d9eea.png"/>                      
     </div>
   </div>
 </div></div>
@@ -161,7 +158,7 @@ Medyan will ensure the media companies a dedicated space that accommodates their
   <div class="row">  
        <div class="one-third column padding10">
         <h2 style="color:white;">Subscribe to our newsletter</h2>
-        <form action="mailto:info@medyan.com?subject=Newsletter subscription" method="post" enctype="text/plain">
+        <form action="mailto:info@medyan.sa?subject=Newsletter subscription" method="post" enctype="text/plain">
 <input type="text" name="I would like to subscribe to the newsletter! 
 
 Email" class="u-full-width" id="exampleEmailInput" placeholder="Email address"><br/>
@@ -239,17 +236,15 @@ for (let item of anchorlinks) { // relitere
 };
 
 // Countdown Riyadh
-var countDownDate = new Date("Sep 30, 2019").getTime();
-
+var countDownDate = new Date("Nov 20, 2019").getTime();
 var x = setInterval(function() {
-
     var now = new Date().getTime();
     
     var distance = countDownDate - now;
     
-    var months = Math.floor(distance / (1000 * 60 * 60 * 24) / 7 / 4);
-    var weeks = Math.floor(distance / (1000 * 60 * 60 * 24) / 7);
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24) + 1);
+    var months = Math.floor(distance / (1000 * 60 * 60 * 24) / 30);
+    var weeks = Math.floor((distance / (1000 * 60 * 60 * 24) - (months * 30)) / 7 );
+    var days = Math.floor((distance / (1000 * 60 * 60 * 24)) - (months * 30) - (weeks * 7) + 1);
     
 document.getElementById("month").innerHTML = months;
    document.getElementById("week").innerHTML = weeks;
@@ -260,19 +255,16 @@ document.getElementById("month").innerHTML = months;
         document.getElementById("month").innerHTML = "Launched!";
     }
 }, 1000);
-
 // Countdown Khobar
-var countDownDateK = new Date("June 30, 2019").getTime();
-
+var countDownDateK = new Date("Aug 29, 2019").getTime();
 var x = setInterval(function() {
-
     var now = new Date().getTime();
     
     var distanceK = countDownDateK - now;
     
-    var monthsK = Math.floor(distanceK / (1000 * 60 * 60 * 24) / 7 / 4);
-    var weeksK = Math.floor(distanceK / (1000 * 60 * 60 * 24) / 7);
-    var daysK = Math.floor(distanceK / (1000 * 60 * 60 * 24) + 1);
+    var monthsK = Math.floor(distanceK / (1000 * 60 * 60 * 24) / 30);
+   var weeksK = Math.floor((distanceK / (1000 * 60 * 60 * 24) - (monthsK * 30)) / 7 );
+    var daysK = Math.floor((distanceK / (1000 * 60 * 60 * 24)) - (monthsK * 30) - (weeksK * 7) + 1);
     
 document.getElementById("month-k").innerHTML = monthsK;
    document.getElementById("week-k").innerHTML = weeksK;
@@ -283,19 +275,16 @@ document.getElementById("month-k").innerHTML = monthsK;
         document.getElementById("month-k").innerHTML = "Launched!";
     }
 }, 1000);
-
 // Countdown Jeddah
-var countDownDateJ = new Date("Sep 30, 2019").getTime();
-
+var countDownDateJ = new Date("Jun 15, 2020").getTime();
 var x = setInterval(function() {
-
     var now = new Date().getTime();
     
     var distanceJ = countDownDateJ - now;
     
-    var monthsJ = Math.floor(distanceJ / (1000 * 60 * 60 * 24) / 7 / 4);
-    var weeksJ = Math.floor(distanceJ / (1000 * 60 * 60 * 24) / 7);
-    var daysJ = Math.floor(distanceJ / (1000 * 60 * 60 * 24) + 1);
+    var monthsJ = Math.floor(distanceJ / (1000 * 60 * 60 * 24) / 30);
+   var weeksJ = Math.floor((distanceJ / (1000 * 60 * 60 * 24) - (monthsJ * 30)) / 7 );
+    var daysJ = Math.floor((distanceJ / (1000 * 60 * 60 * 24)) - (monthsJ * 30) - (weeksJ * 7) + 1 );
     
 document.getElementById("month-j").innerHTML = monthsJ;
    document.getElementById("week-j").innerHTML = weeksJ;
@@ -306,5 +295,4 @@ document.getElementById("month-j").innerHTML = monthsJ;
         document.getElementById("month-j").innerHTML = "Launched!";
     }
 }, 1000);
-
 </script>
